@@ -109,5 +109,11 @@ if (alturaEhValida && pesoEhValido) {
 } else {
     tdImc.textContent = "Altura e/ou peso inválidos!"
 }
+var despesaCategoria = 1532;
+var rendaTotal = 6255;
+
+var porcentagemCategoria = (despesaCategoria/rendaTotal) * 100;
+
+console.log(porcentagemCategoria);
 
 
